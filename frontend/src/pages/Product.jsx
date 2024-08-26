@@ -83,10 +83,14 @@ const Product = () => {
         <div className='flex'>
           <b className='border px-5 py-3 text-sm'>Description</b>
           <b className='border px-5 py-3 text-sm'>Reviews (122)</b>
-
         </div>
 
+        <div className='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
+          <p>An Ecommerce website is an online platform that facilitates the buying and delivering products due to their convenience, accessibility, and the global reach they offer.</p>
+          <p>This Ecommerce website typically display products and accomodates or services along with detailed description.</p>
+        </div>
       </div>
+      {/* ------------Display related products--------------- */}
 
     </div>
   ) : <div className='opacity-0'></div>
