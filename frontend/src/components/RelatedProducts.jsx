@@ -1,4 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
+import ProductItem from '../components/ProductItem'
 
 const RelatedProducts = ({category, subCategory}) => {
 
@@ -20,7 +21,7 @@ const RelatedProducts = ({category, subCategory}) => {
     },[products])
 
   return (
-    <div>
+    <div className='my-24'>
       <div className='text-center text-3xl py-2'>
         <Title text1={'RELATED'} text2={'PRODUCTS'}/>
       </div>
