@@ -4,6 +4,8 @@ const Login = () => {
 
   const [currentState, setCurrentState] = useState('Sign Up');
 
+  // should cancel the page reload automatically.
+
   // prevent the page reload after login
   const onSubmitHandler = async (event) => {
     event.preventDefault();
