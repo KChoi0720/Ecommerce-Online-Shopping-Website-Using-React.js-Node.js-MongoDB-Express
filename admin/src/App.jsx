@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <Navbar />   {/* connect to Navbar and other components below */}
-      
+      <Footer />
 
     </>
   )
