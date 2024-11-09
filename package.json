@@ -1,9 +1,14 @@
 {
-  "devDependencies": {
-    "gh-pages": "^6.1.1",
-    "jest": "^29.0.0"  // Example version
-  },
+  "name": "ecommerce-online-shopping-web",
+  "version": "0.1.0",
+  "private": false,
   "scripts": {
-    "test": "jest"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
+
+
